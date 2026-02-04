@@ -1,29 +1,27 @@
-<!-- TODO: CHANGE ALL INSTANCES OF "PROJECT-TEMPLATE" IN ENTIRE PROJECT TO YOUR PROJECT TITLE-->
-
-# PROJECT-TEMPLATE
+# Jormundgandr
 
 <div align="center">
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/CogitoNTNU/PROJECT-TEMPLATE/ci.yml)
-![GitHub top language](https://img.shields.io/github/languages/top/CogitoNTNU/PROJECT-TEMPLATE)
-![GitHub language count](https://img.shields.io/github/languages/count/CogitoNTNU/PROJECT-TEMPLATE)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Knolaisen/jormundgandr/ci.yml)
+![GitHub top language](https://img.shields.io/github/languages/top/Knolaisen/jormundgandr)
+![GitHub language count](https://img.shields.io/github/languages/count/Knolaisen/jormundgandr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Project Version](https://img.shields.io/badge/version-0.0.1-blue)](https://img.shields.io/badge/version-0.0.1-blue)
 
-<img src="docs/images/project-logo.webp" width="50%" alt="Cogito Project Logo" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="docs/images/project-logo.webp" width="50%" alt="Jormundgandr VOD Logo" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <details> 
 <summary><b>📋 Table of contents </b></summary>
 
-- [PROJECT-TEMPLATE](#PROJECT-TEMPLATE)
+- [Jormundgandr](#jormundgandr)
   - [Description](#description)
-  - [🛠️ Prerequisites](#%EF%B8%8F-prerequisites)
+  - [Prerequisites](#prerequisites)
   - [Getting started](#getting-started)
   - [Usage](#usage)
     - [📖 Generate Documentation Site](#-generate-documentation-site)
   - [Testing](#testing)
-  - [Team](#team)
+  - [Authors](#authors)
     - [License](#license)
 
 </details>
@@ -32,13 +30,7 @@
 
 <!-- TODO: Provide a brief overview of what this project does and its key features. Please add pictures or videos of the application -->
 
-## 🛠️ Prerequisites
-
-<!-- TODO: In this section you put what is needed for the program to run.
-For example: OS version, programs, libraries, etc.  
-
--->
-
+## Prerequisites
 - **Git**: Ensure that git is installed on your machine. [Download Git](https://git-scm.com/downloads)
 - **Python 3.12**: Required for the project. [Download Python](https://www.python.org/downloads/)
 - **UV**: Used for managing Python environments. [Install UV](https://docs.astral.sh/uv/getting-started/installation/)
@@ -52,8 +44,8 @@ For example: OS version, programs, libraries, etc.
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/CogitoNTNU/PROJECT-TEMPLATE.git
-   cd PROJECT-TEMPLATE
+   git clone https://github.com/Knolaisen/jormundgandr.git
+   cd jormundgandr
    ```
 
 1. **Install dependencies**:
@@ -95,7 +87,7 @@ uv run mkdocs build
 uv run mkdocs serve
 ```
 
-This will build the documentation and start a local server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) where you can browse the docs and API reference. Get the documentation according to the lastes commit on main by viewing the `gh-pages` branch on GitHub: [https://cogitontnu.github.io/PROJECT-TEMPLATE/](https://cogitontnu.github.io/PROJECT-TEMPLATE/).
+This will build the documentation and start a local server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) where you can browse the docs and API reference. Get the documentation according to the latest commit on main by viewing the `gh-pages` branch on GitHub: [https://Knolaisen.github.io/jormundgandr/](https://Knolaisen.github.io/jormundgandr/).
 
 ## Testing
 
@@ -105,24 +97,25 @@ To run the test suite, run the following command from the root directory of the 
 uv run pytest --doctest-modules --cov=src --cov-report=html
 ```
 
-## Team
-
-This project would not have been possible without the hard work and dedication of all of the contributors. Thank you for the time and effort you have put into making this project a reality.
+## Authors
 
 <table align="center">
     <tr>
-        <!--
-        <td align="center">
-            <a href="https://github.com/NAME_OF_MEMBER">
-              <img src="https://github.com/NAME_OF_MEMBER.png?size=100" width="100px;" alt="NAME OF MEMBER"/><br />
-              <sub><b>NAME OF MEMBER</b></sub>
-            </a>
-        </td>
-        -->
+      <td align="center">
+        <a href="https://github.com/Knolaisen">
+          <img src="https://github.com/Knolaisen.png?size=100" width="100px;" alt="Kristoffer Nohr Olaisen"/><br />
+          <sub><b>Kristoffer Nohr Olaisen</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/SverreNystad">
+          <img src="https://github.com/SverreNystad.png?size=100" width="100px;" alt="Sverre Nystad"/><br />
+          <sub><b>Sverre Nystad</b></sub>
+        </a>
+      </td>
     </tr>
 </table>
 
-![Group picture](docs/img/team.png)
 
 ### License
 

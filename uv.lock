@@ -565,7 +565,7 @@ wheels = [
 ]
 
 [[package]]
-name = "project-template"
+name = "jormundgandr"
 version = "0.0.1"
 source = { virtual = "." }
 
