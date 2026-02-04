@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -271,6 +271,45 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d", size = 245115, upload-time = "2025-03-05T20:05:02.478Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67", size = 134899, upload-time = "2025-03-05T20:05:00.369Z" },
+]
+
+[[package]]
+name = "jormungandr"
+version = "0.0.1"
+source = { editable = "." }
+
+[package.dev-dependencies]
+dev = [
+    { name = "pre-commit" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+]
+docs = [
+    { name = "mkdocs" },
+    { name = "mkdocs-api-autonav" },
+    { name = "mkdocs-autoapi" },
+    { name = "mkdocs-awesome-nav" },
+    { name = "mkdocs-material" },
+    { name = "mkdocstrings" },
+    { name = "mkdocstrings-python" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "pytest", specifier = ">=8.4.1" },
+    { name = "pytest-cov", specifier = ">=6.2.1" },
+]
+docs = [
+    { name = "mkdocs", specifier = ">=1.6.1" },
+    { name = "mkdocs-api-autonav", specifier = ">=0.3.0" },
+    { name = "mkdocs-autoapi", specifier = ">=0.4.1" },
+    { name = "mkdocs-awesome-nav", specifier = ">=3.1.2" },
+    { name = "mkdocs-material", specifier = ">=9.6.16" },
+    { name = "mkdocstrings", specifier = ">=0.30.0" },
+    { name = "mkdocstrings-python", specifier = ">=1.16.12" },
 ]
 
 [[package]]
@@ -562,45 +601,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/40/f1/6d86a29246dfd2e9b6237f0b5823717f60cad94d47ddc26afa916d21f525/pre_commit-4.5.1.tar.gz", hash = "sha256:eb545fcff725875197837263e977ea257a402056661f09dae08e4b149b030a61", size = 198232, upload-time = "2025-12-16T21:14:33.552Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5d/19/fd3ef348460c80af7bb4669ea7926651d1f95c23ff2df18b9d24bab4f3fa/pre_commit-4.5.1-py2.py3-none-any.whl", hash = "sha256:3b3afd891e97337708c1674210f8eba659b52a38ea5f822ff142d10786221f77", size = 226437, upload-time = "2025-12-16T21:14:32.409Z" },
-]
-
-[[package]]
-name = "jormungandr"
-version = "0.0.1"
-source = { virtual = "." }
-
-[package.dev-dependencies]
-dev = [
-    { name = "pre-commit" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-]
-docs = [
-    { name = "mkdocs" },
-    { name = "mkdocs-api-autonav" },
-    { name = "mkdocs-autoapi" },
-    { name = "mkdocs-awesome-nav" },
-    { name = "mkdocs-material" },
-    { name = "mkdocstrings" },
-    { name = "mkdocstrings-python" },
-]
-
-[package.metadata]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "pre-commit", specifier = ">=4.2.0" },
-    { name = "pytest", specifier = ">=8.4.1" },
-    { name = "pytest-cov", specifier = ">=6.2.1" },
-]
-docs = [
-    { name = "mkdocs", specifier = ">=1.6.1" },
-    { name = "mkdocs-api-autonav", specifier = ">=0.3.0" },
-    { name = "mkdocs-autoapi", specifier = ">=0.4.1" },
-    { name = "mkdocs-awesome-nav", specifier = ">=3.1.2" },
-    { name = "mkdocs-material", specifier = ">=9.6.16" },
-    { name = "mkdocstrings", specifier = ">=0.30.0" },
-    { name = "mkdocstrings-python", specifier = ">=1.16.12" },
 ]
 
 [[package]]

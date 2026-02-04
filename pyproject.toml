@@ -1,11 +1,22 @@
 [project]
 name = "jormungandr"
 version = "0.0.1"
-description = "Add your description here"
+description = "Jormungandr is an novel end-to-end video object detection system that leverages the Spatial-Temporal Mamba architecture to accurately detect and track objects across video frames."
 readme = "README.md"
+authors = [
+    { name = "Sverre Nystad", email = "sverrenystad@gmail.com" },
+    { name = "Kristoffer Nohr Olaisen", email = "66872548+Knolaisen@users.noreply.github.com" }
+]
 requires-python = ">=3.12"
 license-files = ["LICENSE"]
 dependencies = []
+
+[project.scripts]
+jormungandr = "jormungandr:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 
 [dependency-groups]
